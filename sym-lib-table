@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "th")(type "KiCad")(uri "${KIPRJMOD}/th.kicad_sym")(options "")(descr ""))
+  (lib (name "teensy_4.0")(type "KiCad")(uri "${KIPRJMOD}/teensy_4.0.kicad_sym")(options "")(descr ""))
+)
