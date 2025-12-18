@@ -7,8 +7,17 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Tonttuboard")
+		(date "2025-12-18")
+		(rev "1")
+		(company "Ekotomtarna")
+		(comment 1 "4-layers")
+	)
 	(layers
 		(0 "F.Cu" signal)
+		(4 "In1.Cu" signal)
+		(6 "In2.Cu" signal)
 		(2 "B.Cu" signal)
 		(9 "F.Adhes" user "F.Adhesive")
 		(11 "B.Adhes" user "B.Adhesive")
@@ -34,6 +43,67 @@
 		(45 "User.4" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "prepreg")
+				(thickness 0.1)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In1.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 2"
+				(type "core")
+				(thickness 1.24)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In2.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 3"
+				(type "prepreg")
+				(thickness 0.1)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
@@ -200,7 +270,7 @@
 		)
 		(path "/86ff5a40-d042-403e-b72b-9219dcc364bd")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(attr smd)
 		(pad "1" thru_hole rect
 			(at 0 5 270)
@@ -229,14 +299,14 @@
 	(footprint "PCM_JLCPCB:C_0603"
 		(layer "F.Cu")
 		(uuid "18738f8f-0713-4384-a196-906245f507cd")
-		(at 142.25 82)
+		(at 143 82.75)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C5"
 			(at -0.3 -1.7 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "984e48c8-6cda-4c88-b7d0-969784a0507b")
+			(uuid "5f6e7fc0-f114-450e-87cf-5c4f520273ce")
 			(effects
 				(font
 					(size 1 1)
@@ -248,7 +318,7 @@
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "af8d4705-b18c-43d9-b894-10f6c9f3f99c")
+			(uuid "a1f2fe31-cacd-4cb9-a155-cdeee0459813")
 			(effects
 				(font
 					(size 1 1)
@@ -261,7 +331,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8b5cabf7-ca8f-47d8-9c23-5a7b6039c2f6")
+			(uuid "09a22dd1-2a01-467e-a7a1-04b4c329913c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -274,7 +344,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a0ea97e9-bcd5-4faf-bf8d-74947d160d7b")
+			(uuid "c28bb995-f5d6-42f9-93c8-495430f4d8b4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -467,7 +537,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b414c4b8-285c-421a-b859-147ab5ad095c")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(solder_mask_margin 0.038)
 		(attr smd)
 		(fp_line
@@ -609,7 +679,7 @@
 			)
 		)
 		(property "Value" "BMP388"
-			(at -5.42 -4.3 180)
+			(at 4.7 1.45 180)
 			(layer "F.Fab")
 			(uuid "686df041-df0c-40d8-a120-412a8211343d")
 			(effects
@@ -658,7 +728,7 @@
 		)
 		(path "/0bf477b1-3509-4518-872f-5d2459f83cb8")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.02 -1.02)
@@ -763,7 +833,7 @@
 			(uuid "0f974a69-5eda-43fc-8274-46a094e48ade")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -4.92 -2.3 0)
+			(at 6.2 3.25 0)
 			(layer "F.Fab")
 			(uuid "8d5b2654-f181-4b87-b0ee-e34d12346501")
 			(effects
@@ -884,7 +954,7 @@
 			(at -2.75 -3 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "5fcbbc34-3f52-4b75-a77e-c5168c7b4d12")
+			(uuid "e43a3119-51e0-4d5b-b6cb-2a2a2725ae25")
 			(effects
 				(font
 					(size 1 1)
@@ -896,7 +966,7 @@
 			(at 0 4 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c9771be9-44ec-4125-880f-42228f6c68df")
+			(uuid "a39f8721-15c2-4832-ad3f-fc6f1884a759")
 			(effects
 				(font
 					(size 1 1)
@@ -908,7 +978,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2a7ce439-fe69-4eb4-82ae-a4583899354b")
+			(uuid "63900b4c-b505-4012-86ea-a1dd292107fe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -919,7 +989,7 @@
 		(property "Description" "LDR"
 			(at 4.15 -0.15 180)
 			(layer "F.Fab")
-			(uuid "e75cc8da-ff69-4691-a6fc-cd0cf46cda82")
+			(uuid "68e4c301-c238-466e-9989-ebf4d2e287a6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -942,7 +1012,7 @@
 		)
 		(path "/f9031e9c-e905-4d72-8daa-9beacf04d2cf")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.79 1.52)
@@ -1016,7 +1086,7 @@
 			(uuid "11063bcb-90af-4e34-b790-24014b788c33")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -5.35 3.3 90)
+			(at -0.1 0.05 180)
 			(layer "F.Fab")
 			(uuid "364bb4e1-1014-4669-9cae-67328c35f4c1")
 			(effects
@@ -1032,7 +1102,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 64 "+3.3V")
 			(pinfunction "1")
-			(pintype "unspecified")
+			(pintype "power_in")
 			(uuid "2b307575-eb4d-42b7-be14-354c69eed84c")
 		)
 		(pad "2" smd rect
@@ -1041,7 +1111,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 3 "LDR_READ")
 			(pinfunction "2")
-			(pintype "unspecified")
+			(pintype "output")
 			(uuid "a5686da3-18fe-41e9-90a9-30648a575ac8")
 		)
 		(embedded_fonts no)
@@ -1060,7 +1130,7 @@
 	(footprint "Ossi connectors:UART-connector"
 		(layer "F.Cu")
 		(uuid "215665bc-567c-4fca-bb46-b99d39f47a0a")
-		(at 99.525 76.5 -90)
+		(at 99.525 76.25 -90)
 		(property "Reference" "U8"
 			(at 0.55 12.525 270)
 			(unlocked yes)
@@ -1115,7 +1185,7 @@
 		)
 		(path "/98fbc365-d9f6-453d-93fa-ae748ce62736")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(attr smd)
 		(pad "1" thru_hole rect
 			(at 0 5 270)
@@ -1166,11 +1236,11 @@
 	(footprint "EasyEDA:LGA-16_L3.0-W3.0-P0.50-BL_SQ"
 		(layer "F.Cu")
 		(uuid "232aa3d2-0fcc-4d2b-8c0e-bab1c06b9c7a")
-		(at 141.25 86)
+		(at 142.5 86.26)
 		(property "Reference" "U6"
 			(at 0 -5.26 0)
 			(layer "F.SilkS")
-			(uuid "3f2ceb20-777e-4f26-9c37-ade3d7d5ba1f")
+			(uuid "b013b0dd-a63a-4257-8db4-9b2d8524fed5")
 			(effects
 				(font
 					(size 1 1)
@@ -1181,7 +1251,7 @@
 		(property "Value" "MMC5983MA"
 			(at 1.05 -6.7 0)
 			(layer "F.Fab")
-			(uuid "f01fdf38-eb80-4363-ae47-893bde675759")
+			(uuid "54a3a918-53f3-4ae6-8085-42e8b18cffa9")
 			(effects
 				(font
 					(size 1 1)
@@ -1193,7 +1263,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7813b92c-3c58-400c-91b5-dad3f949327f")
+			(uuid "3dcebc81-68d9-4cd1-b49e-e4fee7fa0a88")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1205,7 +1275,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d83b1346-821f-4bed-84b9-f1d60570c606")
+			(uuid "9f76dd61-e06b-450e-8f9b-560197a296e4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1228,7 +1298,7 @@
 		)
 		(path "/679344db-618e-442c-a3ce-3abf4f3ea05a")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(solder_mask_margin 0)
 		(clearance 0.05)
 		(attr smd)
@@ -1517,12 +1587,12 @@
 	(footprint "EasyEDA:LED0603-RD_1"
 		(layer "F.Cu")
 		(uuid "2514d808-44d5-4119-8b02-41167b81fcd5")
-		(at 117.75 93.75 180)
+		(at 122.5 95.25 180)
 		(property "Reference" "LED2"
 			(at 3.85 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8683c929-a101-456b-aa5f-2b5260a8c12f")
+			(uuid "f91538b4-5f36-4326-a073-4e4c51fbe87e")
 			(effects
 				(font
 					(size 1 1)
@@ -1534,7 +1604,7 @@
 			(at 0 4 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "13ae2b6a-6abf-461d-a33f-556b8ef254c6")
+			(uuid "939e3879-ec18-4325-9e6f-33e23527db31")
 			(effects
 				(font
 					(size 1 1)
@@ -1546,7 +1616,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0d21bd10-f3de-422a-a351-dbd7e9862223")
+			(uuid "6894b7ea-8ccb-41e8-b8da-cecea05c4524")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1558,7 +1628,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7f05e4af-87ab-48b2-8f49-bddc6a4ab1d3")
+			(uuid "eb3d86b7-1637-41be-87bb-60f107e5d7f1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1581,7 +1651,7 @@
 		)
 		(path "/d8942f1b-85b7-4427-8b28-95ce2c31167d")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.39 -0.76)
@@ -1823,7 +1893,7 @@
 		)
 		(path "/fd7130a9-7a18-43bb-a5f8-e47b0006d3ba")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.39 -0.66)
@@ -2005,7 +2075,7 @@
 		)
 		(path "/af98b51f-5fdd-4950-8be0-fefc616c3e95")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.39 0.66)
@@ -2123,7 +2193,7 @@
 	(footprint "PCM_JLCPCB:C_0603"
 		(layer "F.Cu")
 		(uuid "2a825069-7a60-4e2a-85c6-a5f2498c2bfc")
-		(at 82 82.25 -90)
+		(at 81.75 82 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
@@ -2361,7 +2431,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/4684fdf0-9f2f-46d1-af46-26740ac74b03")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(solder_mask_margin 0.038)
 		(attr smd)
 		(fp_line
@@ -2727,7 +2797,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/1798a1bf-b54a-4a6f-a131-e66211c6c27d")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(solder_mask_margin 0.038)
 		(attr smd)
 		(fp_line
@@ -2919,7 +2989,7 @@
 		)
 		(path "/cfa20abf-7d0c-4ab6-ac8a-db0313c14a1e")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.39 -0.66)
@@ -3314,7 +3384,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/af3963ec-65df-4e3e-9cf2-9c30ce2b0bf2")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(solder_mask_margin 0.038)
 		(attr smd)
 		(fp_line
@@ -3506,7 +3576,7 @@
 		)
 		(path "/540381e8-cbe6-4e29-b540-accbfd4f65a4")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.39 0.66)
@@ -3624,14 +3694,14 @@
 	(footprint "PCM_JLCPCB:C_0603"
 		(layer "F.Cu")
 		(uuid "408183fc-c5fd-42d9-8ba2-dadf5de3b362")
-		(at 140.25 89.75 180)
+		(at 141.25 89.75 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C11"
 			(at -0.3 -1.7 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8677ba6e-9a7e-43fc-b02c-ef06f00062df")
+			(uuid "b7903dc1-c6fc-4693-a418-da91a1bd3230")
 			(effects
 				(font
 					(size 1 1)
@@ -3643,7 +3713,7 @@
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "37a010e5-5d19-405e-9c20-302a85c49e38")
+			(uuid "2ad92e75-c6fb-4605-9997-2c2daf4cfe58")
 			(effects
 				(font
 					(size 1 1)
@@ -3656,7 +3726,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "45f741bd-4230-4f47-be85-aaf03b4382c8")
+			(uuid "b76bea74-01ad-430b-857c-fe2cf6d16be8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3669,7 +3739,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "89f84ac9-2104-4a7e-8e05-1624008a8de0")
+			(uuid "0ceb449e-592b-4f69-b9b5-e02fca14e3aa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3862,7 +3932,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/dcf596ab-df80-483b-9ed7-55b1b3d13246")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(solder_mask_margin 0.038)
 		(attr smd)
 		(fp_line
@@ -3990,12 +4060,12 @@
 	(footprint "EasyEDA:R0603"
 		(layer "F.Cu")
 		(uuid "4ac6196d-a221-4e34-8d73-4040cd141556")
-		(at 131.25 90 -90)
+		(at 132 90 -90)
 		(property "Reference" "R1"
 			(at 0 -4 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "754affc7-e508-47ba-9ebd-38470680f427")
+			(uuid "a266cf77-36c9-4a2f-aca5-1bff22c2f979")
 			(effects
 				(font
 					(size 1 1)
@@ -4007,7 +4077,7 @@
 			(at 0 4 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "65443826-1de4-479a-b3d5-2bd3b44388ab")
+			(uuid "591894e7-310f-49dc-981c-64a0c06723ac")
 			(effects
 				(font
 					(size 1 1)
@@ -4019,7 +4089,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "91b2283d-f85f-4bb5-98b1-c15afd20f0be")
+			(uuid "9b1ae8ad-da3e-40ce-87db-85c19813caf7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4031,7 +4101,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "23272a1a-e025-446e-b3bc-0b78ab00b30e")
+			(uuid "0a9ad8d9-da71-48fd-a0a3-494dec2e6a57")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4054,7 +4124,7 @@
 		)
 		(path "/4ddcbd3d-e27e-4da0-abdc-6ffcfe2639d5")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.39 0.66)
@@ -4128,7 +4198,7 @@
 			(uuid "773312a2-4919-4036-a25f-cbc76ae8371e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0.05 -0.3 90)
 			(layer "F.Fab")
 			(uuid "15ab91d2-237f-4f0c-a645-5110501b6dd5")
 			(effects
@@ -4172,7 +4242,7 @@
 	(footprint "PCM_JLCPCB:C_0603"
 		(layer "F.Cu")
 		(uuid "57c6e762-8e6e-43ea-91f3-a99c2ee539f2")
-		(at 80.5 82.25 90)
+		(at 80 82 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
@@ -4410,7 +4480,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f9f026d8-e92e-4b41-9ae9-c2b0375af3c1")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(solder_mask_margin 0.038)
 		(attr smd)
 		(fp_line
@@ -4538,12 +4608,12 @@
 	(footprint "EasyEDA:R0603"
 		(layer "F.Cu")
 		(uuid "5a884861-bd76-438b-87a7-9f573a859336")
-		(at 117 77.25 90)
+		(at 118 77.75 90)
 		(property "Reference" "R5"
 			(at 0 -4 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "c51c3f0a-0b57-4a8b-9565-62744cf0a4b4")
+			(uuid "ac56969a-c51a-4d81-af20-a79442b29b34")
 			(effects
 				(font
 					(size 1 1)
@@ -4555,7 +4625,7 @@
 			(at 0 4 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "56ab215f-a390-45f3-b7ab-251146a02bee")
+			(uuid "66435877-1531-4723-8c53-2132e402c00e")
 			(effects
 				(font
 					(size 1 1)
@@ -4567,7 +4637,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5526a86b-0f16-4464-9828-afadcae9aacd")
+			(uuid "fa36030b-b589-4e9f-9287-3e3e863b3576")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4579,7 +4649,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ed22cd3a-8e30-495d-ac57-ca2654a27fe6")
+			(uuid "f548437f-6775-480c-84e6-b12935e6c033")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4602,7 +4672,7 @@
 		)
 		(path "/1563b63e-1a06-484e-821d-b5d93b58dde9")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.39 -0.66)
@@ -4784,7 +4854,7 @@
 		)
 		(path "/d2bd3b03-3d2b-4a77-97b0-0669212f490d")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.39 -0.66)
@@ -4966,7 +5036,7 @@
 		)
 		(path "/c5ed9cc2-8347-4e48-a40f-0a6a90816c28")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.39 -0.66)
@@ -5322,7 +5392,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/98dd92b3-26e5-4688-809d-158b74161a30")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(solder_mask_margin 0.038)
 		(attr smd)
 		(fp_line
@@ -5506,7 +5576,7 @@
 		(property ki_fp_filters "*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*")
 		(path "/cac5bf01-bedf-440e-be2e-0eda9c9e24ba")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -1.143 4.191)
@@ -5607,7 +5677,7 @@
 		)
 		(path "/cc54ed33-36fa-4a66-9a23-4fe04816a4ad")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.39 -0.66)
@@ -5725,7 +5795,7 @@
 	(footprint "Ossi connectors:UART-connector"
 		(layer "F.Cu")
 		(uuid "6f4ec85a-9bdb-4ba8-babb-d4ec2181ecb1")
-		(at 118.75 76.5 -90)
+		(at 118.75 76.25 -90)
 		(property "Reference" "U10"
 			(at 0 -0.5 270)
 			(unlocked yes)
@@ -5780,7 +5850,7 @@
 		)
 		(path "/43bc6926-55f0-4b4c-af81-f48b0c60091a")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(attr smd)
 		(pad "1" thru_hole rect
 			(at 0 5 270)
@@ -5895,7 +5965,7 @@
 		)
 		(path "/42fa1112-1e69-42d6-8344-f3991b12b3c0")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.39 -0.66)
@@ -6013,12 +6083,12 @@
 	(footprint "EasyEDA:R0603"
 		(layer "F.Cu")
 		(uuid "7958a757-f424-46e7-b9ca-2e8cf771e6c3")
-		(at 145 87.75 -90)
+		(at 145.5 87.5 -90)
 		(property "Reference" "R6"
 			(at 0 -4 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d697f0f1-91fa-41bd-836b-4dafdbb7b64a")
+			(uuid "4dbccfb1-ea9d-47b8-abb5-e0720d8a5804")
 			(effects
 				(font
 					(size 1 1)
@@ -6030,7 +6100,7 @@
 			(at 0 4 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b52e29c0-0b9c-4157-951d-e79a351fab11")
+			(uuid "f668e04d-5b81-416e-b2b7-c90d0046e6e2")
 			(effects
 				(font
 					(size 1 1)
@@ -6042,7 +6112,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2780053a-afb9-44fb-b383-3c37f39c85cf")
+			(uuid "9d95e526-ac47-4c46-b3be-504c78bd06d7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6054,7 +6124,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9b8c02fd-3f2f-4536-a4ab-0fd83ab6cb5a")
+			(uuid "bc998ddc-83be-4a73-92c9-1a94a7984f21")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6077,7 +6147,7 @@
 		)
 		(path "/c31b0a74-d99a-4a66-ae35-acbafb4664a2")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.39 0.66)
@@ -6195,7 +6265,7 @@
 	(footprint "PCM_JLCPCB:C_0603"
 		(layer "F.Cu")
 		(uuid "831f1b3c-9637-46ab-bb6e-0999a98bb51d")
-		(at 103.5 96.25)
+		(at 103.25 96)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C14"
@@ -6433,7 +6503,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b5926af0-7adf-488d-9396-9e3ec5886a43")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(solder_mask_margin 0.038)
 		(attr smd)
 		(fp_line
@@ -6561,14 +6631,14 @@
 	(footprint "PCM_JLCPCB:C_0603"
 		(layer "F.Cu")
 		(uuid "835a81c4-3f5b-4a8a-ae72-e3b41a6c799b")
-		(at 133.75 87.5 -90)
+		(at 134.25 86 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C16"
 			(at -0.3 -1.7 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "cc047c28-6a7b-4c00-b217-1362e390ef7c")
+			(uuid "4bf1440b-b75e-4d2d-bdbc-b5d4040127ad")
 			(effects
 				(font
 					(size 1 1)
@@ -6580,7 +6650,7 @@
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8995aa48-1554-4069-8cb2-ee69d9a402e8")
+			(uuid "30aeb447-4a96-46b3-9b4f-055964ab9532")
 			(effects
 				(font
 					(size 1 1)
@@ -6589,11 +6659,11 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b1f67b4b-d920-4ab2-983b-85f6ecfdda43")
+			(uuid "34806477-b977-430d-bfac-1fac6c2af087")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6602,11 +6672,11 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9478d926-7255-44dd-aad1-fc0a0d51f7d1")
+			(uuid "2eb05434-c7ab-4bfb-9da9-7fffe26d0d10")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6615,7 +6685,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6628,7 +6698,7 @@
 			)
 		)
 		(property "Stock" "70324515"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6641,7 +6711,7 @@
 			)
 		)
 		(property "Price" "0.006USD"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6654,7 +6724,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6667,7 +6737,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6680,7 +6750,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6693,7 +6763,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6706,7 +6776,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6719,7 +6789,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6732,7 +6802,7 @@
 			)
 		)
 		(property "Part" "CC0603KRX7R9BB104"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6745,7 +6815,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6758,7 +6828,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6771,7 +6841,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6784,7 +6854,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6799,28 +6869,18 @@
 		(property ki_fp_filters "C_*")
 		(path "/5ed88711-e847-4474-a6c2-2ef6cfad2895")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(solder_mask_margin 0.038)
 		(attr smd)
 		(fp_line
-			(start -1.4 0.6)
-			(end -1.4 -0.6)
+			(start 1.4 -0.6)
+			(end 1.4 0.6)
 			(stroke
 				(width 0.05)
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "787eba63-5da2-45a9-9ea5-c3ce14d318da")
-		)
-		(fp_line
-			(start 1.4 0.6)
-			(end -1.4 0.6)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "F.CrtYd")
-			(uuid "1300cbd9-e5e6-4d9c-bc46-593becebe287")
+			(uuid "f6a6c651-72b1-43b7-9c3c-3c5b20b69cfc")
 		)
 		(fp_line
 			(start -1.4 -0.6)
@@ -6833,34 +6893,34 @@
 			(uuid "c67b3ab4-e6f3-4d58-aeb0-9c871061bc26")
 		)
 		(fp_line
-			(start 1.4 -0.6)
-			(end 1.4 0.6)
+			(start 1.4 0.6)
+			(end -1.4 0.6)
 			(stroke
 				(width 0.05)
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "f6a6c651-72b1-43b7-9c3c-3c5b20b69cfc")
+			(uuid "1300cbd9-e5e6-4d9c-bc46-593becebe287")
 		)
 		(fp_line
-			(start -0.8 0.4)
-			(end -0.8 -0.4)
+			(start -1.4 0.6)
+			(end -1.4 -0.6)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "787eba63-5da2-45a9-9ea5-c3ce14d318da")
+		)
+		(fp_line
+			(start 0.8 -0.4)
+			(end 0.8 0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "dea5549d-fa93-4b14-8857-4d2f8037f83f")
-		)
-		(fp_line
-			(start 0.8 0.4)
-			(end -0.8 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "9801ffff-7d39-434b-bf53-8aa748ef9e4f")
+			(uuid "9f6600d1-bb25-4942-a45e-39db5cd5931c")
 		)
 		(fp_line
 			(start -0.8 -0.4)
@@ -6873,14 +6933,24 @@
 			(uuid "228cd05b-0405-4f27-b53e-2a01bfba5233")
 		)
 		(fp_line
-			(start 0.8 -0.4)
-			(end 0.8 0.4)
+			(start 0.8 0.4)
+			(end -0.8 0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9f6600d1-bb25-4942-a45e-39db5cd5931c")
+			(uuid "9801ffff-7d39-434b-bf53-8aa748ef9e4f")
+		)
+		(fp_line
+			(start -0.8 0.4)
+			(end -0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dea5549d-fa93-4b14-8857-4d2f8037f83f")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -6894,7 +6964,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.78 0 270)
+			(at -0.78 0 90)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6903,7 +6973,7 @@
 			(uuid "bb18d7d8-dbbf-416a-b9a4-f72636de4ef4")
 		)
 		(pad "2" smd roundrect
-			(at 0.78 0 270)
+			(at 0.78 0 90)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -7204,7 +7274,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/4a8167f2-905a-4b4f-b498-10771cbcf291")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(solder_mask_margin 0.038)
 		(attr smd)
 		(fp_line
@@ -7395,7 +7465,7 @@
 		)
 		(path "/4d576ca8-16b2-47e8-a69a-c81d7d796485")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.39 -0.66)
@@ -7520,7 +7590,7 @@
 			(at -0.3 -1.7 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "010c3d13-b777-42fb-9252-df21566bdf91")
+			(uuid "584befc3-c6c2-4011-acdc-59c47022bde6")
 			(effects
 				(font
 					(size 1 1)
@@ -7532,7 +7602,7 @@
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ab5640c7-9378-40c4-a03f-5a835c5876b8")
+			(uuid "7e9b3b8d-10c2-43dc-a825-d665e242832e")
 			(effects
 				(font
 					(size 1 1)
@@ -7545,7 +7615,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "955e375e-aa96-43b1-9f33-cc84aacaec76")
+			(uuid "a7c497de-fd30-44a1-a5dc-7b76351e8b53")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7558,7 +7628,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d9ca99c8-7096-41d3-8ef8-9c25b89da428")
+			(uuid "942101fd-dc51-4ac1-82cb-bda8e50891bc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7751,7 +7821,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e8b92176-e435-4643-af86-d405c9132777")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(solder_mask_margin 0.038)
 		(attr smd)
 		(fp_line
@@ -7942,7 +8012,7 @@
 		)
 		(path "/cd90d711-e88e-4789-9ddb-31e9474977b9")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.39 0.66)
@@ -8298,7 +8368,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/375c5862-95a8-4dea-b7b9-c29e7b028dcf")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(solder_mask_margin 0.038)
 		(attr smd)
 		(fp_line
@@ -8426,7 +8496,7 @@
 	(footprint "Ossi connectors:Motor-connector"
 		(layer "F.Cu")
 		(uuid "c39467b0-90d1-4e03-9c26-792b57edb599")
-		(at 110.25 76.5 -90)
+		(at 110.25 76.25 -90)
 		(property "Reference" "U1"
 			(at 3.486 -4.4015 270)
 			(unlocked yes)
@@ -8481,7 +8551,7 @@
 		)
 		(path "/1479dfdd-5652-40b9-97a1-dde7f5765e85")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(attr smd)
 		(pad "1" thru_hole circle
 			(at 0 7 270)
@@ -8543,14 +8613,14 @@
 	(footprint "PCM_JLCPCB:C_0603"
 		(layer "F.Cu")
 		(uuid "cca28e75-5e85-446d-8edb-04e396fd4ddb")
-		(at 129.5 90 90)
+		(at 130.5 90 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C15"
 			(at -0.3 -1.7 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "24c05326-c8d6-483f-82b5-826f7a6165d8")
+			(uuid "29132093-616d-4089-91d3-df21a99af2f8")
 			(effects
 				(font
 					(size 1 1)
@@ -8561,7 +8631,8 @@
 		(property "Value" "10nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "3c93228c-a9ad-4192-a73b-8b6355679a42")
+			(hide yes)
+			(uuid "4d82e9fb-a2cb-45f5-8591-afc1d7184c9e")
 			(effects
 				(font
 					(size 1 1)
@@ -8574,7 +8645,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5a9a97a2-ba35-47f6-a603-de3659fc3d96")
+			(uuid "cf5b2c3e-710b-4503-9907-f916e89f4fe6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8587,7 +8658,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "129bb29b-ac8a-4450-96d3-b21fb5f858cf")
+			(uuid "e951fca1-a417-45a5-ab91-542f7c6c05da")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8780,7 +8851,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/7bd2066a-d74e-4b01-82c6-85a775ea894b")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(solder_mask_margin 0.038)
 		(attr smd)
 		(fp_line
@@ -8908,12 +8979,12 @@
 	(footprint "EasyEDA:LGA-24_L3.0-W3.0-P0.40-TL"
 		(layer "F.Cu")
 		(uuid "cdf794f0-a930-4527-89fb-8a9f947c3b5e")
-		(at 130.25 85.75)
+		(at 131.3 85.93)
 		(property "Reference" "U3"
 			(at 2.2 -3.58 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a89cd5eb-6755-44bb-b9d1-71662aec6407")
+			(uuid "3b7627e0-6e9c-4de9-aba3-57c2b548a015")
 			(effects
 				(font
 					(size 1 1)
@@ -8924,7 +8995,7 @@
 		(property "Value" "ICM-40609-D"
 			(at 0.55 8.35 0)
 			(layer "F.Fab")
-			(uuid "7344d8bc-0fc1-45e6-ae2a-f7beffdd9e29")
+			(uuid "97f72196-4dfe-47b4-89f8-6db86c240db2")
 			(effects
 				(font
 					(size 1 1)
@@ -8936,7 +9007,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9691fee1-c5b4-47d6-8181-d3dc790424e6")
+			(uuid "1d3b8dac-39d2-496c-ad63-32582537c443")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8948,7 +9019,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8e1049f2-f64c-4e80-baf6-d37cf406fd33")
+			(uuid "5b5ed0f3-5e44-4c2c-8009-659abadb1dac")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8971,7 +9042,7 @@
 		)
 		(path "/165807f8-eff4-416e-a7fb-6b49503c2bec")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.58 -1.58)
@@ -9465,14 +9536,14 @@
 	(footprint "PCM_JLCPCB:C_0603"
 		(layer "F.Cu")
 		(uuid "d4e9ce77-e1b4-4cc5-abaa-92ae4eee63e4")
-		(at 137.5 85.5 90)
+		(at 139 86 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C8"
 			(at -0.3 -1.7 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "4e511f00-4067-48db-8886-b87c0f8905d1")
+			(uuid "f5146afe-5847-4d77-8257-d78a4e391018")
 			(effects
 				(font
 					(size 1 1)
@@ -9484,7 +9555,7 @@
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "edf6070d-da05-4614-a938-53d41700c4a8")
+			(uuid "9e4f1187-9467-4d8a-a33d-8737962627ea")
 			(effects
 				(font
 					(size 1 1)
@@ -9497,7 +9568,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0206acc9-beef-45a3-91e7-af389e8aefe8")
+			(uuid "c7f7f50a-2512-4d20-b05b-4b2a6a987890")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9510,7 +9581,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7c5e3c3a-29ad-4317-8816-902e8c7a2f0d")
+			(uuid "0d46c89a-5df3-480e-91f2-47f3edf00fa8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9703,7 +9774,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/954c0299-f6da-4dbc-9dfb-c239642ce911")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(solder_mask_margin 0.038)
 		(attr smd)
 		(fp_line
@@ -9831,12 +9902,12 @@
 	(footprint "EasyEDA:SOIC-16_L10.3-W7.5-P1.27-LS10.3-BL"
 		(layer "F.Cu")
 		(uuid "d7c364f2-5dc9-4240-a4eb-5247c4733e64")
-		(at 121.5 85.75 180)
+		(at 122.5 86 180)
 		(property "Reference" "U5"
 			(at 4.55 -7.15 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "1eb11fdd-4daf-437a-874c-10c1e110bd96")
+			(uuid "8b9ef1e7-4dc4-41fc-a958-49179626fef8")
 			(effects
 				(font
 					(size 1 1)
@@ -9847,7 +9918,7 @@
 		(property "Value" "W25Q256JVFIQT"
 			(at -0.1 -0.5 0)
 			(layer "F.Fab")
-			(uuid "7f9f1a09-a2ce-43b7-9e0f-6932472b375b")
+			(uuid "4289de57-8045-4b65-9ca9-230c73863c6b")
 			(effects
 				(font
 					(size 1 1)
@@ -9859,7 +9930,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "333cfcf9-551b-471b-8b47-0d843ea3e111")
+			(uuid "19eed43e-ffb7-4838-b790-e3ab22cd5b71")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9871,7 +9942,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "328ee7e3-df08-4b8b-b1fc-333d91a53d2e")
+			(uuid "226d7c35-e25a-45cd-859a-f50732a97b77")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9894,7 +9965,7 @@
 		)
 		(path "/6d27a140-2aa8-4a2d-8e81-f1a476971753")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 5.23 3.32)
@@ -10151,7 +10222,7 @@
 	(footprint "EasyEDA:R0603"
 		(layer "F.Cu")
 		(uuid "d98532c5-b94c-4277-a495-5406db7b161c")
-		(at 84 82.25 90)
+		(at 83.5 82 90)
 		(property "Reference" "R13"
 			(at 0 -4 90)
 			(layer "F.SilkS")
@@ -10215,7 +10286,7 @@
 		)
 		(path "/dec09416-cffe-4296-8cd7-b5841e62dd63")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.39 -0.66)
@@ -10289,7 +10360,7 @@
 			(uuid "2aa3cb86-0d67-4057-a3e5-a405db3c3be9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0.25 0 90)
 			(layer "F.Fab")
 			(uuid "66f5bf17-ce6a-478e-ae9b-c53eb091df3f")
 			(effects
@@ -10333,7 +10404,7 @@
 	(footprint "EasyEDA:LED0603-RD_RED"
 		(layer "F.Cu")
 		(uuid "e0818b6f-842e-4575-a930-91945fea1358")
-		(at 117.8 95.76 180)
+		(at 118 95.25 180)
 		(property "Reference" "LED1"
 			(at 4 0.04 0)
 			(layer "F.SilkS")
@@ -10397,7 +10468,7 @@
 		)
 		(path "/c51fd89d-303f-4b8a-ac5d-7bcdae238037")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.39 -0.76)
@@ -10622,7 +10693,7 @@
 			(at -0.3 -1.7 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "4311635d-ebd4-4f01-821a-5cd4b6eff93f")
+			(uuid "ae5b4d3b-bc71-4738-9c79-25649d535809")
 			(effects
 				(font
 					(size 1 1)
@@ -10634,7 +10705,7 @@
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "74138e62-2286-4f4a-9204-84f32f0d3e95")
+			(uuid "df5aa1e4-802e-45de-96e0-b4b9099e2f5c")
 			(effects
 				(font
 					(size 1 1)
@@ -10647,7 +10718,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c4b53185-dda8-4a70-a1a7-5eb7b6cf5355")
+			(uuid "5606f6f7-282e-4b09-9d8c-156557f80ea5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10660,7 +10731,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2bd4ff52-086d-42d0-879a-9f29998c040d")
+			(uuid "e0dcfc15-787c-4d2c-b9c4-0088291ebb55")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10853,7 +10924,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8d742354-ade2-4944-8eba-f910200aa91b")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(solder_mask_margin 0.038)
 		(attr smd)
 		(fp_line
@@ -10981,14 +11052,14 @@
 	(footprint "PCM_JLCPCB:C_0603"
 		(layer "F.Cu")
 		(uuid "f04eccc4-3486-463f-8fda-e1b653c5ac0c")
-		(at 135.5 87.5 -90)
+		(at 135.75 86 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
 			(at -0.3 -1.7 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "15a325bd-324d-442a-abdd-0df97527419d")
+			(uuid "728f64ea-3f35-444a-aef6-9ded98ecd9ea")
 			(effects
 				(font
 					(size 1 1)
@@ -11000,7 +11071,7 @@
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4cc09c28-9390-4ebd-aa87-654274608955")
+			(uuid "8d0c3fa9-a7af-4347-b10c-277a9e17484a")
 			(effects
 				(font
 					(size 1 1)
@@ -11009,11 +11080,11 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A225KO8NNNC_C23630.pdf"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "278166bc-7305-4f72-9685-af55f56f1f32")
+			(uuid "b917c0d0-fc8c-48b4-8dae-22c2463430c4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11022,11 +11093,11 @@
 			)
 		)
 		(property "Description" "16V 2.2uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "45992d76-da30-4a79-aea8-ade4879b3553")
+			(uuid "2748ba7f-1ba1-4a23-bbee-95046c59c606")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11035,7 +11106,7 @@
 			)
 		)
 		(property "LCSC" "C23630"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11048,7 +11119,7 @@
 			)
 		)
 		(property "Stock" "2585089"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11061,7 +11132,7 @@
 			)
 		)
 		(property "Price" "0.009USD"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11074,7 +11145,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11087,7 +11158,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11100,7 +11171,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11113,7 +11184,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11126,7 +11197,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11139,7 +11210,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11152,7 +11223,7 @@
 			)
 		)
 		(property "Part" "CL10A225KO8NNNC"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11165,7 +11236,7 @@
 			)
 		)
 		(property "Voltage Rated" "16V"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11178,7 +11249,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11191,7 +11262,7 @@
 			)
 		)
 		(property "Capacitance" "2.2uF"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11204,7 +11275,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X5R"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11219,28 +11290,18 @@
 		(property ki_fp_filters "C_*")
 		(path "/9310cc9c-a80c-47d2-82de-fc74f4919bc8")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(solder_mask_margin 0.038)
 		(attr smd)
 		(fp_line
-			(start -1.4 0.6)
-			(end -1.4 -0.6)
+			(start 1.4 -0.6)
+			(end 1.4 0.6)
 			(stroke
 				(width 0.05)
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "85b4ee0b-0b0f-4e9c-886d-1517c0c23dee")
-		)
-		(fp_line
-			(start 1.4 0.6)
-			(end -1.4 0.6)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "F.CrtYd")
-			(uuid "dfc5d1da-8309-4489-a22b-bccda48d703d")
+			(uuid "0542cf56-3ac7-4519-959d-1ac8ed7f5b80")
 		)
 		(fp_line
 			(start -1.4 -0.6)
@@ -11253,34 +11314,34 @@
 			(uuid "09a8f73f-d51a-4788-81b5-7a804fd8e641")
 		)
 		(fp_line
-			(start 1.4 -0.6)
-			(end 1.4 0.6)
+			(start 1.4 0.6)
+			(end -1.4 0.6)
 			(stroke
 				(width 0.05)
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "0542cf56-3ac7-4519-959d-1ac8ed7f5b80")
+			(uuid "dfc5d1da-8309-4489-a22b-bccda48d703d")
 		)
 		(fp_line
-			(start -0.8 0.4)
-			(end -0.8 -0.4)
+			(start -1.4 0.6)
+			(end -1.4 -0.6)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "85b4ee0b-0b0f-4e9c-886d-1517c0c23dee")
+		)
+		(fp_line
+			(start 0.8 -0.4)
+			(end 0.8 0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ccdbb495-32e8-4f42-a962-dddf5792739d")
-		)
-		(fp_line
-			(start 0.8 0.4)
-			(end -0.8 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "1c18968f-24f0-490e-b7aa-06585d87e173")
+			(uuid "04003322-e0e3-4599-b197-ef30f689f18b")
 		)
 		(fp_line
 			(start -0.8 -0.4)
@@ -11293,14 +11354,24 @@
 			(uuid "9d12679d-5413-4d3b-b94d-5fbc54c31104")
 		)
 		(fp_line
-			(start 0.8 -0.4)
-			(end 0.8 0.4)
+			(start 0.8 0.4)
+			(end -0.8 0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "04003322-e0e3-4599-b197-ef30f689f18b")
+			(uuid "1c18968f-24f0-490e-b7aa-06585d87e173")
+		)
+		(fp_line
+			(start -0.8 0.4)
+			(end -0.8 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ccdbb495-32e8-4f42-a962-dddf5792739d")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -11314,7 +11385,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.78 0 270)
+			(at -0.78 0 90)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -11323,7 +11394,7 @@
 			(uuid "ac569bc5-09f3-4d45-9b63-3fcfdacc4c92")
 		)
 		(pad "2" smd roundrect
-			(at 0.78 0 270)
+			(at 0.78 0 90)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -11352,7 +11423,7 @@
 			(at 0 -10.16 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "68757c23-a12e-426e-8459-453615f12f15")
+			(uuid "bc2e7f0f-c26d-4a5d-8ea1-11727090b485")
 			(effects
 				(font
 					(size 1 1)
@@ -11364,7 +11435,7 @@
 			(at 0 10.16 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c01e00b9-3b63-4e72-bd71-9783bc28c30b")
+			(uuid "f1b99fb5-07e5-41c1-824d-83c59d64d7ef")
 			(effects
 				(font
 					(size 1 1)
@@ -11376,7 +11447,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "85c1fd4d-5e0c-422e-8cb5-3a2cd7bfed7e")
+			(uuid "6722a8e8-f722-44ed-baa9-4b3e25280722")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11388,7 +11459,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7e0d0d1e-6b07-4532-8634-4135d582dedf")
+			(uuid "cfa0ef7a-4288-44a9-8db4-e90497170c7f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11398,7 +11469,7 @@
 		)
 		(path "/610fb737-bcb0-46e1-bfad-f4dab2e75fb7")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -17.78 8.763)
@@ -11752,6 +11823,7 @@
 		)
 		(embedded_fonts no)
 		(model "${MY_3D}/teensy-4-0-1.snapshot.3/Teensy_4.0/Teensy_4.0_Assembly.STEP"
+			(hide yes)
 			(offset
 				(xyz 33 9.5 -9.5)
 			)
@@ -11821,7 +11893,7 @@
 		)
 		(path "/c5546e3d-75cb-492f-9fac-10dc2e489101")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(attr smd)
 		(pad "1" thru_hole rect
 			(at 0 5 90)
@@ -11914,7 +11986,7 @@
 		)
 		(path "/3bd0f83b-95f7-4613-865d-d3806d1b2efa")
 		(sheetname "/")
-		(sheetfile "tonttulauta v.0.kicad_sch")
+		(sheetfile "tonttuboard.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.39 -0.66)
