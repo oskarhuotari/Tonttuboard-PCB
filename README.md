@@ -5,8 +5,9 @@ A custom Teensy 4.0 carrier booard PCB for the Finnish 2026 CanSat competition.
 
 
 The board includes:
-  ICM-40609-D (IMU)
-  MMC5983MA (MAGNETOMETER)
-  BMP388 (BAROMETER)
-  W25Q256JVFIQT (FLASH CHIP)
-  LDR
+- ICM-40609-D (IMU)
+- MMC5983MA (Magnetometer)
+- BMP388 (Barometer)
+- W25Q256JVFIQT (Flash Chip)
+- LDR
+
