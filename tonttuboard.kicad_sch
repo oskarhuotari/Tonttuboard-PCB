@@ -11,6 +11,544 @@
 		(company "Team Ekotomtarna")
 	)
 	(lib_symbols
+		(symbol "0603WAF1003T5E_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0603WAF1003T5E"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:R0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_100KR-1003-1_C25803.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C25803"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603WAF1003T5E_1_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "0603WAF1003T5E_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0603WAF1003T5E"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:R0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_100KR-1003-1_C25803.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C25803"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603WAF1003T5E_2_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "0603WAF2701T5E_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0603WAF2701T5E"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:R0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_2-7KR-2701-1_C13167.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C13167"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603WAF2701T5E_1_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Photo"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Photo"
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -6.35 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Photoresistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable light sensitive opto LDR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*LDR* R?LDR*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Photo_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.762) (xy -4.064 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.762) (xy -2.286 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.762) (xy -1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -2.286) (xy -4.064 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -2.286) (xy -2.286 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -2.286) (xy -1.524 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Photo_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Thermistor_NTC"
 			(pin_numbers
 				(hide yes)
@@ -269,6 +807,12 @@
 			(embedded_fonts no)
 		)
 		(symbol "EasyEDA:0603WAF1002T5E"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -376,6 +920,12 @@
 			(embedded_fonts no)
 		)
 		(symbol "EasyEDA:0603WAF1003T5E"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -483,6 +1033,12 @@
 			(embedded_fonts no)
 		)
 		(symbol "EasyEDA:0603WAF2701T5E"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -865,6 +1421,12 @@
 			(embedded_fonts no)
 		)
 		(symbol "EasyEDA:FC-D1608UGK-520D10"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1033,6 +1595,12 @@
 			(embedded_fonts no)
 		)
 		(symbol "EasyEDA:FC-DA1608HRK-620D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1183,187 +1751,6 @@
 					(at 5.08 0 180)
 					(length 3.81)
 					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "EasyEDA:GT36516"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GT36516"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "EasyEDA:RES-SMD_L3.6-W2.4"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C2904880"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GT36516_0_1"
-				(rectangle
-					(start -2.54 1.27)
-					(end 2.54 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.03) (xy 0.25 2.79)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.03) (xy 0.76 2.29)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.03) (xy 1.52 3.56)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.03) (xy 1.52 2.79)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.03) (xy 2.03 2.29)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.03) (xy 2.54 3.3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GT36516_1_1"
-				(pin power_in line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2311,6 +2698,12 @@
 			(embedded_fonts no)
 		)
 		(symbol "EasyEDA:RC0603FR-0733RL"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4357,6 +4750,276 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_JLCPCB-Resistors:0603,22kΩ"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.778 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "22kΩ"
+				(at 0 0 90)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:R_0603"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010030_UNI-ROYAL-Uniroyal-Elec-0603WAF2202T5E_C31850.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 22kΩ 0603 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C31850"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "1601895"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.004USD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Minimum Qty" "20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Attrition Qty" "10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Class" "Basic Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Resistors,Chip Resistor - Surface Mount"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" "0603WAF2202T5E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Resistance" "22kΩ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power(Watts)" "100mW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" "Thick Film Resistors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Overload Voltage (Max)" "75V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Operating Temperature Range" "-55°C~+155°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "±1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature Coefficient" "±100ppm/°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603,22kΩ_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0603,22kΩ_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_JLCPCB-Resistors:0603,620Ω"
 			(pin_numbers
 				(hide yes)
@@ -4610,6 +5273,797 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RC0603FR-0733RL_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RC0603FR-0733RL"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:R0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_33R-33R-1_C108661.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C108661"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RC0603FR-0733RL_1_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RC0603FR-0733RL_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RC0603FR-0733RL"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:R0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_33R-33R-1_C108661.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C108661"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RC0603FR-0733RL_2_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RC0603FR-0733RL_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RC0603FR-0733RL"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:R0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_33R-33R-1_C108661.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C108661"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RC0603FR-0733RL_3_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RC0603FR-0733RL_4"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RC0603FR-0733RL"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:R0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_33R-33R-1_C108661.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C108661"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RC0603FR-0733RL_4_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RC0603FR-0733RL_5"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RC0603FR-0733RL"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:R0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_33R-33R-1_C108661.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C108661"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RC0603FR-0733RL_5_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RC0603FR-0733RL_6"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RC0603FR-0733RL"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:R0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_33R-33R-1_C108661.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C108661"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RC0603FR-0733RL_6_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RC0603FR-0733RL_7"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RC0603FR-0733RL"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:R0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_33R-33R-1_C108661.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C108661"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RC0603FR-0733RL_7_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6412,7 +7866,7 @@
 		(uuid "0ce3112c-9bda-4598-9e4e-18341ec1ae7b")
 	)
 	(junction
-		(at 275.59 66.04)
+		(at 270.51 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "265c973f-e50f-4129-adb1-216484901a8e")
@@ -6430,7 +7884,7 @@
 		(uuid "382d019c-732e-44db-a779-1d4582a8669b")
 	)
 	(junction
-		(at 254 55.88)
+		(at 248.92 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44f42131-4de3-4d50-a6e0-7b8494c82902")
@@ -6448,13 +7902,13 @@
 		(uuid "84fe2d3e-08d3-438b-b47b-2086a3ed60f5")
 	)
 	(junction
-		(at 278.13 38.1)
+		(at 273.05 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ba3a27e-5708-443d-b3e7-64211f870528")
 	)
 	(junction
-		(at 252.73 76.2)
+		(at 247.65 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e8b5f27-d65e-4749-8d4e-14c199cdfe61")
@@ -6478,13 +7932,13 @@
 		(uuid "ad70e9ca-e40f-4c2b-ad29-20f51a92da47")
 	)
 	(junction
-		(at 267.97 68.58)
+		(at 262.89 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9073adf-881a-4f55-9415-3551c7525b25")
 	)
 	(junction
-		(at 273.05 33.02)
+		(at 267.97 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c761b9c0-b55d-4923-a185-8d7beef2ccc9")
@@ -6496,7 +7950,7 @@
 		(uuid "ce7f2988-c6e0-4e15-848a-fc7f6afd6682")
 	)
 	(junction
-		(at 252.73 58.42)
+		(at 247.65 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee426c23-e498-4d9a-b7e0-87ac3e393c3e")
@@ -6508,7 +7962,7 @@
 		(uuid "ef4fd50b-3ff7-4003-ac34-5fe064ac8ef1")
 	)
 	(junction
-		(at 184.15 66.04)
+		(at 179.07 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1e068e1-37eb-4a7f-9944-7f633886fa28")
@@ -6521,7 +7975,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 86.36) (xy 195.58 82.55)
+			(xy 190.5 86.36) (xy 190.5 82.55)
 		)
 		(stroke
 			(width 0)
@@ -6541,7 +7995,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 35.56) (xy 278.13 38.1)
+			(xy 273.05 35.56) (xy 273.05 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6551,7 +8005,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 80.01) (xy 187.96 80.01)
+			(xy 181.61 80.01) (xy 182.88 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6571,7 +8025,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 78.74) (xy 198.12 76.2)
+			(xy 193.04 78.74) (xy 193.04 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6581,7 +8035,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 81.28) (xy 187.96 81.28)
+			(xy 194.31 81.28) (xy 182.88 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6591,7 +8045,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 38.1) (xy 278.13 52.07)
+			(xy 273.05 38.1) (xy 273.05 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6601,7 +8055,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 58.42) (xy 251.46 58.42)
+			(xy 247.65 58.42) (xy 246.38 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6611,7 +8065,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 55.88) (xy 254 55.88)
+			(xy 250.19 55.88) (xy 248.92 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6631,7 +8085,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 68.58) (xy 267.97 68.58)
+			(xy 246.38 68.58) (xy 262.89 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6651,7 +8105,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 78.74) (xy 264.16 78.74)
+			(xy 247.65 78.74) (xy 259.08 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6661,7 +8115,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 41.91) (xy 256.54 43.18)
+			(xy 251.46 41.91) (xy 251.46 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6671,7 +8125,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 78.74) (xy 199.39 78.74)
+			(xy 195.58 78.74) (xy 194.31 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6691,7 +8145,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 71.12) (xy 275.59 66.04)
+			(xy 270.51 71.12) (xy 270.51 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6701,7 +8155,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 78.74) (xy 199.39 81.28)
+			(xy 194.31 78.74) (xy 194.31 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6721,7 +8175,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 82.55) (xy 186.69 82.55)
+			(xy 182.88 82.55) (xy 181.61 82.55)
 		)
 		(stroke
 			(width 0)
@@ -6771,7 +8225,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 66.04) (xy 194.31 68.58)
+			(xy 189.23 66.04) (xy 189.23 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6791,7 +8245,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 63.5) (xy 278.13 62.23)
+			(xy 273.05 63.5) (xy 273.05 62.23)
 		)
 		(stroke
 			(width 0)
@@ -6801,7 +8255,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 33.02) (xy 267.97 38.1)
+			(xy 262.89 33.02) (xy 262.89 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6821,7 +8275,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 33.02) (xy 270.51 26.67)
+			(xy 265.43 33.02) (xy 265.43 26.67)
 		)
 		(stroke
 			(width 0)
@@ -6831,7 +8285,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 66.04) (xy 276.86 66.04)
+			(xy 270.51 66.04) (xy 271.78 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6841,7 +8295,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 60.96) (xy 273.05 59.69)
+			(xy 267.97 60.96) (xy 267.97 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6861,7 +8315,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 66.04) (xy 275.59 66.04)
+			(xy 246.38 66.04) (xy 270.51 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6871,7 +8325,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 63.5) (xy 278.13 63.5)
+			(xy 246.38 63.5) (xy 273.05 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6881,7 +8335,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 52.07) (xy 251.46 53.34)
+			(xy 246.38 52.07) (xy 246.38 53.34)
 		)
 		(stroke
 			(width 0)
@@ -6891,7 +8345,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 78.74) (xy 264.16 81.28)
+			(xy 259.08 78.74) (xy 259.08 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6901,7 +8355,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 33.02) (xy 270.51 33.02)
+			(xy 267.97 33.02) (xy 265.43 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6931,7 +8385,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 90.17) (xy 195.58 90.17)
+			(xy 193.04 90.17) (xy 190.5 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6971,7 +8425,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 68.58) (xy 194.31 68.58)
+			(xy 195.58 68.58) (xy 189.23 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6981,7 +8435,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 76.2) (xy 251.46 76.2)
+			(xy 247.65 76.2) (xy 246.38 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6991,7 +8445,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 78.74) (xy 198.12 78.74)
+			(xy 182.88 78.74) (xy 193.04 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7001,7 +8455,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 33.02) (xy 273.05 31.75)
+			(xy 267.97 33.02) (xy 267.97 31.75)
 		)
 		(stroke
 			(width 0)
@@ -7021,7 +8475,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 38.1) (xy 278.13 38.1)
+			(xy 262.89 38.1) (xy 273.05 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7031,7 +8485,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 81.28) (xy 200.66 82.55)
+			(xy 195.58 81.28) (xy 195.58 82.55)
 		)
 		(stroke
 			(width 0)
@@ -7051,7 +8505,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 76.2) (xy 252.73 78.74)
+			(xy 247.65 76.2) (xy 247.65 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7061,7 +8515,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 52.07) (xy 264.16 52.07)
+			(xy 248.92 52.07) (xy 259.08 52.07)
 		)
 		(stroke
 			(width 0)
@@ -7081,7 +8535,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 83.82) (xy 200.66 83.82)
+			(xy 193.04 83.82) (xy 195.58 83.82)
 		)
 		(stroke
 			(width 0)
@@ -7091,7 +8545,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 83.82) (xy 198.12 90.17)
+			(xy 193.04 83.82) (xy 193.04 90.17)
 		)
 		(stroke
 			(width 0)
@@ -7111,7 +8565,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 76.2) (xy 200.66 76.2)
+			(xy 193.04 76.2) (xy 195.58 76.2)
 		)
 		(stroke
 			(width 0)
@@ -7141,7 +8595,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 49.53) (xy 273.05 33.02)
+			(xy 267.97 49.53) (xy 267.97 33.02)
 		)
 		(stroke
 			(width 0)
@@ -7171,6 +8625,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 182.88) (xy 88.9 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aedc548d-9b81-422a-8746-ec5064d207a8")
+	)
+	(wire
+		(pts
 			(xy 143.51 48.26) (xy 143.51 50.8)
 		)
 		(stroke
@@ -7181,7 +8645,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 55.88) (xy 254 52.07)
+			(xy 248.92 55.88) (xy 248.92 52.07)
 		)
 		(stroke
 			(width 0)
@@ -7221,7 +8685,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 60.96) (xy 273.05 60.96)
+			(xy 246.38 60.96) (xy 267.97 60.96)
 		)
 		(stroke
 			(width 0)
@@ -7241,7 +8705,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 26.67) (xy 266.7 26.67)
+			(xy 265.43 26.67) (xy 261.62 26.67)
 		)
 		(stroke
 			(width 0)
@@ -7261,7 +8725,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 58.42) (xy 252.73 50.8)
+			(xy 247.65 58.42) (xy 247.65 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7271,7 +8735,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 76.2) (xy 252.73 76.2)
+			(xy 248.92 76.2) (xy 247.65 76.2)
 		)
 		(stroke
 			(width 0)
@@ -7281,7 +8745,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 50.8) (xy 256.54 50.8)
+			(xy 247.65 50.8) (xy 251.46 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7291,7 +8755,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 82.55) (xy 200.66 82.55)
+			(xy 190.5 82.55) (xy 195.58 82.55)
 		)
 		(stroke
 			(width 0)
@@ -7301,7 +8765,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 68.58) (xy 269.24 68.58)
+			(xy 262.89 68.58) (xy 264.16 68.58)
 		)
 		(stroke
 			(width 0)
@@ -7331,7 +8795,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 66.04) (xy 184.15 66.04)
+			(xy 175.26 66.04) (xy 179.07 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7371,7 +8835,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 81.28) (xy 187.96 82.55)
+			(xy 182.88 81.28) (xy 182.88 82.55)
 		)
 		(stroke
 			(width 0)
@@ -7421,7 +8885,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 80.01) (xy 187.96 78.74)
+			(xy 182.88 80.01) (xy 182.88 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7441,7 +8905,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 52.07) (xy 264.16 50.8)
+			(xy 259.08 52.07) (xy 259.08 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7481,7 +8945,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 55.88) (xy 251.46 55.88)
+			(xy 248.92 55.88) (xy 246.38 55.88)
 		)
 		(stroke
 			(width 0)
@@ -7491,7 +8955,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 58.42) (xy 252.73 58.42)
+			(xy 248.92 58.42) (xy 247.65 58.42)
 		)
 		(stroke
 			(width 0)
@@ -7501,7 +8965,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 41.91) (xy 264.16 43.18)
+			(xy 259.08 41.91) (xy 259.08 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7577,7 +9041,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 224.79 99.06 270)
+		(at 219.71 99.06 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7587,7 +9051,7 @@
 		)
 		(uuid "1561ad00-a990-4245-8b1d-884abc86bea6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.79 104.3433 90)
+			(at 219.71 104.3433 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7599,7 +9063,7 @@
 	)
 	(global_label "M1"
 		(shape input)
-		(at 200.66 58.42 180)
+		(at 195.58 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7609,7 +9073,7 @@
 		)
 		(uuid "1751ff71-3e34-42c7-8647-c88d95a1f5f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.0139 58.42 0)
+			(at 189.9339 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7687,7 +9151,7 @@
 	)
 	(global_label "LDR_READ"
 		(shape input)
-		(at 255.27 55.88 0)
+		(at 250.19 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7697,7 +9161,7 @@
 		)
 		(uuid "21844814-5b09-434e-94f2-98711e687c5d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.5685 55.88 0)
+			(at 262.4885 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7731,7 +9195,7 @@
 	)
 	(global_label "LORA_RX"
 		(shape input)
-		(at 200.66 73.66 180)
+		(at 195.58 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7741,7 +9205,7 @@
 		)
 		(uuid "2b93be27-e793-42ce-8595-7fc95d98638c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.5105 73.66 0)
+			(at 184.4305 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7775,7 +9239,7 @@
 	)
 	(global_label "M3"
 		(shape input)
-		(at 200.66 63.5 180)
+		(at 195.58 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7785,7 +9249,7 @@
 		)
 		(uuid "2e9b06e8-5175-4bb3-a0e5-22e68fb19fab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.0139 63.5 0)
+			(at 189.9339 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7797,7 +9261,7 @@
 	)
 	(global_label "LORA_TX"
 		(shape input)
-		(at 200.66 71.12 180)
+		(at 195.58 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7807,7 +9271,7 @@
 		)
 		(uuid "2efed542-b0b1-4352-bc5e-49f33a46e01a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.8129 71.12 0)
+			(at 184.7329 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7841,7 +9305,7 @@
 	)
 	(global_label "CS_IMU"
 		(shape input)
-		(at 273.05 31.75 90)
+		(at 267.97 31.75 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7851,7 +9315,7 @@
 		)
 		(uuid "45a76d4f-c060-46e5-9a51-a73e173f8eab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.05 21.931 90)
+			(at 267.97 21.931 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7863,7 +9327,7 @@
 	)
 	(global_label "BAT_READ"
 		(shape input)
-		(at 254 76.2 0)
+		(at 248.92 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7873,7 +9337,7 @@
 		)
 		(uuid "4673246b-16ab-49ef-b760-468da55e0a99")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.0566 76.2 0)
+			(at 260.9766 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7907,7 +9371,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 276.86 66.04 0)
+		(at 271.78 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7917,7 +9381,7 @@
 		)
 		(uuid "4a696cf6-7c27-4ba1-b0e4-b631a4b15f26")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 283.4133 66.04 0)
+			(at 278.3333 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7973,7 +9437,7 @@
 	)
 	(global_label "CLOCK"
 		(shape input)
-		(at 251.46 41.91 90)
+		(at 246.38 41.91 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7983,7 +9447,7 @@
 		)
 		(uuid "5a6e658a-f2e4-463b-b653-e4ee98492c1b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.46 32.7562 90)
+			(at 246.38 32.7562 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8017,7 +9481,7 @@
 	)
 	(global_label "IMU_INT1"
 		(shape input)
-		(at 186.69 82.55 180)
+		(at 181.61 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8027,7 +9491,7 @@
 		)
 		(uuid "6068569c-0f85-46da-a8ba-49b707c4317d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.2381 82.55 0)
+			(at 170.1581 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8083,7 +9547,7 @@
 	)
 	(global_label "MISO"
 		(shape input)
-		(at 195.58 90.17 180)
+		(at 190.5 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8093,7 +9557,7 @@
 		)
 		(uuid "74cdcc05-2339-485a-a521-6052d98448d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.9986 90.17 0)
+			(at 182.9186 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8171,7 +9635,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 269.24 68.58 0)
+		(at 264.16 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8181,7 +9645,7 @@
 		)
 		(uuid "887b63ae-788e-427d-bd47-b78b1b37d8b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.7328 68.58 0)
+			(at 270.6528 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8193,7 +9657,7 @@
 	)
 	(global_label "GPS_TX"
 		(shape input)
-		(at 200.66 53.34 180)
+		(at 195.58 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8203,7 +9667,7 @@
 		)
 		(uuid "88c18356-75cf-4173-90e8-d95a8078f5b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.7806 53.34 0)
+			(at 185.7006 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8237,7 +9701,7 @@
 	)
 	(global_label "BARO_INT"
 		(shape input)
-		(at 251.46 71.12 0)
+		(at 246.38 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8247,7 +9711,7 @@
 		)
 		(uuid "95366229-1b5a-484b-afe7-4e747a64ccca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.2748 71.12 0)
+			(at 258.1948 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8325,7 +9789,7 @@
 	)
 	(global_label "M4"
 		(shape input)
-		(at 200.66 66.04 180)
+		(at 195.58 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8335,7 +9799,7 @@
 		)
 		(uuid "bdfbc472-6992-4df6-b71e-25c0610d3549")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.0139 66.04 0)
+			(at 189.9339 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8369,7 +9833,7 @@
 	)
 	(global_label "MOSI"
 		(shape input)
-		(at 185.42 86.36 180)
+		(at 180.34 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8379,7 +9843,7 @@
 		)
 		(uuid "c1a93b4b-410b-4a42-9a52-86dcc387b791")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.8386 86.36 0)
+			(at 172.7586 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8391,7 +9855,7 @@
 	)
 	(global_label "IMU_INT2"
 		(shape input)
-		(at 186.69 80.01 180)
+		(at 181.61 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8401,7 +9865,7 @@
 		)
 		(uuid "c7f16524-2c68-4ce0-a112-78a684d18fc5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.2381 80.01 0)
+			(at 170.1581 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8413,7 +9877,7 @@
 	)
 	(global_label "CS_FLASH"
 		(shape input)
-		(at 278.13 35.56 90)
+		(at 273.05 35.56 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8423,7 +9887,7 @@
 		)
 		(uuid "ca1f1e91-3c02-4df2-9b00-f999e2e4fd0e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.13 23.3824 90)
+			(at 273.05 23.3824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8435,7 +9899,7 @@
 	)
 	(global_label "TEMP_READ"
 		(shape input)
-		(at 254 58.42 0)
+		(at 248.92 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8445,7 +9909,7 @@
 		)
 		(uuid "cdc082fd-d8c2-4f14-88a4-e57e780aae79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.5684 58.42 0)
+			(at 262.4884 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8523,7 +9987,7 @@
 	)
 	(global_label "GPS_RX"
 		(shape input)
-		(at 200.66 55.88 180)
+		(at 195.58 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8533,7 +9997,7 @@
 		)
 		(uuid "e45b7949-bcdb-4739-aeac-3b7a6f303cb4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.4782 55.88 0)
+			(at 185.3982 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8611,7 +10075,7 @@
 	)
 	(global_label "M2"
 		(shape input)
-		(at 200.66 60.96 180)
+		(at 195.58 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8621,7 +10085,7 @@
 		)
 		(uuid "f0b487d4-7b26-4d36-866d-2d1640aabb69")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.0139 60.96 0)
+			(at 189.9339 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8633,7 +10097,7 @@
 	)
 	(global_label "MAG_INT"
 		(shape input)
-		(at 251.46 73.66 0)
+		(at 246.38 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8643,7 +10107,7 @@
 		)
 		(uuid "f28163fd-948f-4fe3-b7c1-8956bbcdc5fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.1257 73.66 0)
+			(at 257.0457 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8765,7 +10229,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 184.15 55.88 0)
+		(at 179.07 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8773,7 +10237,7 @@
 		(dnp no)
 		(uuid "0545bda5-9600-49f8-9acf-7a81531275b1")
 		(property "Reference" "#PWR042"
-			(at 184.15 59.69 0)
+			(at 179.07 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8782,7 +10246,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 186.69 52.07 0)
+			(at 181.61 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8790,7 +10254,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 55.88 0)
+			(at 179.07 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8799,7 +10263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 55.88 0)
+			(at 179.07 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8808,7 +10272,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 184.15 55.88 0)
+			(at 179.07 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9008,6 +10472,7 @@
 		)
 	)
 	(symbol
+		(lib_name "RC0603FR-0733RL_3")
 		(lib_id "EasyEDA:RC0603FR-0733RL")
 		(at 147.32 123.19 0)
 		(unit 1)
@@ -9420,7 +10885,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 251.46 96.52 0)
+		(at 246.38 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9428,7 +10893,7 @@
 		(dnp no)
 		(uuid "1e822ee9-ba18-480c-aff5-1e5c8d945f29")
 		(property "Reference" "#PWR050"
-			(at 251.46 102.87 0)
+			(at 246.38 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9437,7 +10902,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 252.73 100.33 0)
+			(at 247.65 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9446,7 +10911,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 96.52 0)
+			(at 246.38 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9455,7 +10920,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 96.52 0)
+			(at 246.38 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9464,7 +10929,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 251.46 96.52 0)
+			(at 246.38 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9551,7 +11016,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 86.36 182.88 90)
+		(at 85.09 182.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9559,7 +11024,7 @@
 		(dnp no)
 		(uuid "2ddab543-4f99-4738-85bc-bb1320d69c2f")
 		(property "Reference" "#PWR021"
-			(at 90.17 182.88 0)
+			(at 88.9 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9568,7 +11033,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 86.36 180.34 90)
+			(at 85.09 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9577,7 +11042,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 182.88 0)
+			(at 85.09 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9586,7 +11051,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 182.88 0)
+			(at 85.09 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9595,7 +11060,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 86.36 182.88 0)
+			(at 85.09 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9617,7 +11082,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0603,100nF")
-		(at 256.54 46.99 180)
+		(at 251.46 46.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9625,7 +11090,7 @@
 		(dnp no)
 		(uuid "375c5862-95a8-4dea-b7b9-c29e7b028dcf")
 		(property "Reference" "C12"
-			(at 259.08 49.53 90)
+			(at 254 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9633,7 +11098,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 259.08 44.45 90)
+			(at 254 44.45 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9641,7 +11106,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0603"
-			(at 258.318 46.99 90)
+			(at 253.238 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9650,7 +11115,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
-			(at 256.54 46.99 0)
+			(at 251.46 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9659,7 +11124,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 256.54 46.99 0)
+			(at 251.46 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9668,7 +11133,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 256.54 46.99 0)
+			(at 251.46 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9677,7 +11142,7 @@
 			)
 		)
 		(property "Stock" "70324515"
-			(at 256.54 46.99 0)
+			(at 251.46 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9686,7 +11151,7 @@
 			)
 		)
 		(property "Price" "0.006USD"
-			(at 256.54 46.99 0)
+			(at 251.46 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9695,7 +11160,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 256.54 46.99 0)
+			(at 251.46 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9704,7 +11169,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 256.54 46.99 0)
+			(at 251.46 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9713,7 +11178,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 256.54 46.99 0)
+			(at 251.46 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9722,7 +11187,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 256.54 46.99 0)
+			(at 251.46 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9731,7 +11196,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 256.54 46.99 0)
+			(at 251.46 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9740,7 +11205,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 256.54 46.99 0)
+			(at 251.46 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9749,7 +11214,7 @@
 			)
 		)
 		(property "Part" "CC0603KRX7R9BB104"
-			(at 256.54 46.99 0)
+			(at 251.46 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9758,7 +11223,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 254 46.99 90)
+			(at 248.92 46.99 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9767,7 +11232,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 256.54 46.99 0)
+			(at 251.46 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9776,7 +11241,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 256.54 46.99 0)
+			(at 251.46 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9785,7 +11250,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 256.54 46.99 0)
+			(at 251.46 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9875,8 +11340,9 @@
 		)
 	)
 	(symbol
+		(lib_name "0603WAF1003T5E_2")
 		(lib_id "EasyEDA:0603WAF1003T5E")
-		(at 261.62 26.67 180)
+		(at 256.54 26.67 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9884,7 +11350,7 @@
 		(dnp no)
 		(uuid "3bd0f83b-95f7-4613-865d-d3806d1b2efa")
 		(property "Reference" "R20"
-			(at 260.35 24.13 0)
+			(at 255.27 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9893,7 +11359,7 @@
 			)
 		)
 		(property "Value" "0603WAF1003T5E"
-			(at 262.8899 24.13 90)
+			(at 257.8099 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9903,7 +11369,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:R0603"
-			(at 261.62 19.05 0)
+			(at 256.54 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9912,7 +11378,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_100KR-1003-1_C25803.html"
-			(at 261.62 16.51 0)
+			(at 256.54 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9921,7 +11387,7 @@
 			)
 		)
 		(property "Description" "100kΩ"
-			(at 261.62 26.67 0)
+			(at 256.54 26.67 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9930,7 +11396,7 @@
 			)
 		)
 		(property "LCSC Part" "C25803"
-			(at 261.62 13.97 0)
+			(at 256.54 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10015,83 +11481,6 @@
 			(project "tonttulauta v.0"
 				(path "/b9cca3cd-cb2d-42d4-a628-737eddf4a5c6"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:0603WAF1002T5E")
-		(at 106.68 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42fa1112-1e69-42d6-8344-f3991b12b3c0")
-		(property "Reference" "R4"
-			(at 106.68 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0603WAF1002T5E"
-			(at 106.68 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "EasyEDA:R0603"
-			(at 106.68 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25804.html"
-			(at 106.68 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10kΩ"
-			(at 106.68 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C25804"
-			(at 106.68 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0a300ec7-5864-4844-935b-b3ce093fb33c")
-		)
-		(pin "1"
-			(uuid "9ed6f464-2a88-4333-b863-14f7ac16ff7b")
-		)
-		(instances
-			(project "tonttulauta v.0"
-				(path "/b9cca3cd-cb2d-42d4-a628-737eddf4a5c6"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -10866,6 +12255,7 @@
 		)
 	)
 	(symbol
+		(lib_name "RC0603FR-0733RL_2")
 		(lib_id "EasyEDA:RC0603FR-0733RL")
 		(at 77.47 109.22 0)
 		(unit 1)
@@ -10942,8 +12332,9 @@
 		)
 	)
 	(symbol
+		(lib_name "RC0603FR-0733RL_4")
 		(lib_id "EasyEDA:RC0603FR-0733RL")
-		(at 278.13 57.15 270)
+		(at 273.05 57.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10951,7 +12342,7 @@
 		(dnp no)
 		(uuid "540381e8-cbe6-4e29-b540-accbfd4f65a4")
 		(property "Reference" "R11"
-			(at 280.67 57.15 0)
+			(at 275.59 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10959,7 +12350,7 @@
 			)
 		)
 		(property "Value" "RC0603FR-0733RL"
-			(at 281.94 57.15 0)
+			(at 276.86 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10968,7 +12359,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:R0603"
-			(at 270.51 57.15 0)
+			(at 265.43 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10977,7 +12368,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_33R-33R-1_C108661.html"
-			(at 267.97 57.15 0)
+			(at 262.89 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10986,7 +12377,7 @@
 			)
 		)
 		(property "Description" "33 Ω"
-			(at 278.13 57.15 0)
+			(at 273.05 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10994,7 +12385,7 @@
 			)
 		)
 		(property "LCSC Part" "C108661"
-			(at 265.43 57.15 0)
+			(at 260.35 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11212,7 +12603,7 @@
 	)
 	(symbol
 		(lib_id "teensy_4.0:Teensy4.0")
-		(at 228.6 85.09 0)
+		(at 223.52 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11220,7 +12611,7 @@
 		(dnp no)
 		(uuid "610fb737-bcb0-46e1-bfad-f4dab2e75fb7")
 		(property "Reference" "U9"
-			(at 230.7433 35.56 0)
+			(at 225.6633 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11229,7 +12620,7 @@
 			)
 		)
 		(property "Value" "Teensy 4.0"
-			(at 199.39 36.83 0)
+			(at 194.31 36.83 0)
 			(effects
 				(font
 					(face "KiCad Font")
@@ -11241,7 +12632,7 @@
 			)
 		)
 		(property "Footprint" "Teensy:Teensy40"
-			(at 218.44 80.01 0)
+			(at 213.36 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11250,7 +12641,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 80.01 0)
+			(at 213.36 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11259,7 +12650,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.6 85.09 0)
+			(at 223.52 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11362,7 +12753,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 257.81 33.02 90)
+		(at 252.73 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11370,7 +12761,7 @@
 		(dnp no)
 		(uuid "63601bd2-c901-4245-9447-7ac348bec8ec")
 		(property "Reference" "#PWR059"
-			(at 261.62 33.02 0)
+			(at 256.54 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11379,7 +12770,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 256.54 30.48 90)
+			(at 251.46 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11387,7 +12778,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 33.02 0)
+			(at 252.73 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11396,7 +12787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 33.02 0)
+			(at 252.73 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11405,7 +12796,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 257.81 33.02 0)
+			(at 252.73 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11859,8 +13250,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Photo")
+		(at 92.71 182.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70c87521-0a31-47de-9828-8ec25b6a831c")
+		(property "Reference" "R2"
+			(at 92.71 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Photo"
+			(at 92.71 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Ossi connectors:LDR-holes"
+			(at 99.06 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Photoresistor"
+			(at 92.71 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0abd4b63-61c1-40ba-ad94-2600468c42ca")
+		)
+		(pin "1"
+			(uuid "45601237-394f-451f-bd4f-26b7b0e3688b")
+		)
+		(instances
+			(project ""
+				(path "/b9cca3cd-cb2d-42d4-a628-737eddf4a5c6"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
-		(at 267.97 78.74 180)
+		(at 262.89 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11868,7 +13328,7 @@
 		(dnp no)
 		(uuid "7271697b-1cd9-4ed1-84c6-6284cb8b8053")
 		(property "Reference" "#PWR054"
-			(at 267.97 74.93 0)
+			(at 262.89 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11877,7 +13337,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 267.97 82.55 0)
+			(at 262.89 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11885,7 +13345,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 78.74 0)
+			(at 262.89 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11894,7 +13354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 78.74 0)
+			(at 262.89 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11903,7 +13363,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 267.97 78.74 0)
+			(at 262.89 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12317,7 +13777,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 264.16 88.9 0)
+		(at 259.08 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12326,7 +13786,7 @@
 		(fields_autoplaced yes)
 		(uuid "870987d1-8acc-4ac7-b196-7b3efd6be06f")
 		(property "Reference" "#PWR053"
-			(at 264.16 95.25 0)
+			(at 259.08 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12335,7 +13795,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 264.16 93.98 0)
+			(at 259.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12343,7 +13803,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 88.9 0)
+			(at 259.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12352,7 +13812,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 88.9 0)
+			(at 259.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12361,7 +13821,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 264.16 88.9 0)
+			(at 259.08 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12644,7 +14104,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 256.54 26.67 90)
+		(at 251.46 26.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12652,7 +14112,7 @@
 		(dnp no)
 		(uuid "8debf91d-bd3a-4544-b015-36a7e8fc36d1")
 		(property "Reference" "#PWR058"
-			(at 260.35 26.67 0)
+			(at 255.27 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12661,7 +14121,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 254 24.13 90)
+			(at 248.92 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12669,7 +14129,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 26.67 0)
+			(at 251.46 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12678,7 +14138,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 26.67 0)
+			(at 251.46 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12687,7 +14147,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 256.54 26.67 0)
+			(at 251.46 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12969,6 +14429,228 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_JLCPCB-Resistors:0603,22kΩ")
+		(at 105.41 182.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "925af650-8b13-491c-b799-ff70bf77ba57")
+		(property "Reference" "R4"
+			(at 105.41 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22kΩ"
+			(at 105.41 182.88 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0603"
+			(at 105.41 184.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010030_UNI-ROYAL-Uniroyal-Elec-0603WAF2202T5E_C31850.pdf"
+			(at 105.41 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 22kΩ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 105.41 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C31850"
+			(at 105.41 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "1601895"
+			(at 105.41 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 105.41 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 105.41 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 105.41 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 105.41 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 105.41 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 105.41 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 105.41 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0603WAF2202T5E"
+			(at 105.41 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "22kΩ"
+			(at 105.41 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "100mW"
+			(at 105.41 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 105.41 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "75V"
+			(at 105.41 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 105.41 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 105.41 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 105.41 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc454575-b93e-44b7-b90e-42c02cdcccce")
+		)
+		(pin "2"
+			(uuid "0ce0359b-b889-46c2-b69b-322469b1270a")
+		)
+		(instances
+			(project ""
+				(path "/b9cca3cd-cb2d-42d4-a628-737eddf4a5c6"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0603,2.2uF")
 		(at 64.77 88.9 90)
 		(unit 1)
@@ -13163,7 +14845,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 228.6 99.06 180)
+		(at 223.52 99.06 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13171,7 +14853,7 @@
 		(dnp no)
 		(uuid "9341b14a-a425-4271-aa71-0db4bbdb36d5")
 		(property "Reference" "#PWR047"
-			(at 228.6 95.25 0)
+			(at 223.52 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13180,7 +14862,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 232.41 101.6 0)
+			(at 227.33 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13188,7 +14870,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 99.06 0)
+			(at 223.52 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13197,7 +14879,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 99.06 0)
+			(at 223.52 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13206,7 +14888,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 228.6 99.06 0)
+			(at 223.52 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13551,7 +15233,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0603,100nF")
-		(at 264.16 46.99 180)
+		(at 259.08 46.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13559,7 +15241,7 @@
 		(dnp no)
 		(uuid "98dd92b3-26e5-4688-809d-158b74161a30")
 		(property "Reference" "C13"
-			(at 266.7 48.26 90)
+			(at 261.62 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13567,7 +15249,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 266.7 43.18 90)
+			(at 261.62 43.18 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13575,7 +15257,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0603"
-			(at 265.938 46.99 90)
+			(at 260.858 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13584,7 +15266,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
-			(at 264.16 46.99 0)
+			(at 259.08 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13593,7 +15275,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 264.16 46.99 0)
+			(at 259.08 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13602,7 +15284,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 264.16 46.99 0)
+			(at 259.08 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13611,7 +15293,7 @@
 			)
 		)
 		(property "Stock" "70324515"
-			(at 264.16 46.99 0)
+			(at 259.08 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13620,7 +15302,7 @@
 			)
 		)
 		(property "Price" "0.006USD"
-			(at 264.16 46.99 0)
+			(at 259.08 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13629,7 +15311,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 264.16 46.99 0)
+			(at 259.08 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13638,7 +15320,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 264.16 46.99 0)
+			(at 259.08 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13647,7 +15329,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 264.16 46.99 0)
+			(at 259.08 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13656,7 +15338,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 264.16 46.99 0)
+			(at 259.08 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13665,7 +15347,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 264.16 46.99 0)
+			(at 259.08 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13674,7 +15356,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 264.16 46.99 0)
+			(at 259.08 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13683,7 +15365,7 @@
 			)
 		)
 		(property "Part" "CC0603KRX7R9BB104"
-			(at 264.16 46.99 0)
+			(at 259.08 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13692,7 +15374,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 261.62 46.99 90)
+			(at 256.54 46.99 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13701,7 +15383,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 264.16 46.99 0)
+			(at 259.08 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13710,7 +15392,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 264.16 46.99 0)
+			(at 259.08 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13719,7 +15401,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 264.16 46.99 0)
+			(at 259.08 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13948,7 +15630,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 264.16 41.91 180)
+		(at 259.08 41.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13957,7 +15639,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ee257bd-c47d-4488-b7bf-b63c9fc61fb1")
 		(property "Reference" "#PWR052"
-			(at 264.16 35.56 0)
+			(at 259.08 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13966,7 +15648,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 264.16 36.83 0)
+			(at 259.08 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13974,7 +15656,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 41.91 0)
+			(at 259.08 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13983,7 +15665,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 41.91 0)
+			(at 259.08 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13992,7 +15674,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 264.16 41.91 0)
+			(at 259.08 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14212,7 +15894,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 111.76 182.88 90)
+		(at 109.22 182.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14220,7 +15902,7 @@
 		(dnp no)
 		(uuid "a4e2e73c-6e1e-4169-8f14-e5b35ed0666c")
 		(property "Reference" "#PWR025"
-			(at 118.11 182.88 0)
+			(at 115.57 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14229,7 +15911,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 182.88 90)
+			(at 111.76 182.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14238,7 +15920,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 182.88 0)
+			(at 109.22 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14247,7 +15929,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 182.88 0)
+			(at 109.22 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14256,7 +15938,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 111.76 182.88 0)
+			(at 109.22 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14476,7 +16158,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,620Ω")
-		(at 251.46 82.55 0)
+		(at 246.38 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14484,7 +16166,7 @@
 		(dnp no)
 		(uuid "af3963ec-65df-4e3e-9cf2-9c30ce2b0bf2")
 		(property "Reference" "R15"
-			(at 252.73 82.55 0)
+			(at 247.65 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14493,7 +16175,7 @@
 			)
 		)
 		(property "Value" "620Ω"
-			(at 251.46 82.55 90)
+			(at 246.38 82.55 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -14502,7 +16184,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0603"
-			(at 249.682 82.55 90)
+			(at 244.602 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14511,7 +16193,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF6200T5E_C23220.pdf"
-			(at 251.46 82.55 0)
+			(at 246.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14520,7 +16202,7 @@
 			)
 		)
 		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/°C ±1% 620Ω 0603 Chip Resistor - Surface Mount ROHS"
-			(at 251.46 82.55 0)
+			(at 246.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14529,7 +16211,7 @@
 			)
 		)
 		(property "LCSC" "C23220"
-			(at 251.46 82.55 0)
+			(at 246.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14538,7 +16220,7 @@
 			)
 		)
 		(property "Stock" "229300"
-			(at 251.46 82.55 0)
+			(at 246.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14547,7 +16229,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 251.46 82.55 0)
+			(at 246.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14556,7 +16238,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 251.46 82.55 0)
+			(at 246.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14565,7 +16247,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 251.46 82.55 0)
+			(at 246.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14574,7 +16256,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 251.46 82.55 0)
+			(at 246.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14583,7 +16265,7 @@
 			)
 		)
 		(property "Class" "Preferred Component"
-			(at 251.46 82.55 0)
+			(at 246.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14592,7 +16274,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 251.46 82.55 0)
+			(at 246.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14601,7 +16283,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 251.46 82.55 0)
+			(at 246.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14610,7 +16292,7 @@
 			)
 		)
 		(property "Part" "0603WAF6200T5E"
-			(at 251.46 82.55 0)
+			(at 246.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14619,7 +16301,7 @@
 			)
 		)
 		(property "Resistance" "620Ω"
-			(at 251.46 82.55 0)
+			(at 246.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14628,7 +16310,7 @@
 			)
 		)
 		(property "Power(Watts)" "100mW"
-			(at 251.46 82.55 0)
+			(at 246.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14637,7 +16319,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 251.46 82.55 0)
+			(at 246.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14646,7 +16328,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "75V"
-			(at 251.46 82.55 0)
+			(at 246.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14655,7 +16337,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 251.46 82.55 0)
+			(at 246.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14664,7 +16346,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 251.46 82.55 0)
+			(at 246.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14673,7 +16355,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 251.46 82.55 0)
+			(at 246.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14698,7 +16380,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:0603WAF1003T5E")
-		(at 184.15 60.96 90)
+		(at 179.07 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14706,7 +16388,7 @@
 		(dnp no)
 		(uuid "af98b51f-5fdd-4950-8be0-fefc616c3e95")
 		(property "Reference" "R9"
-			(at 185.42 60.96 90)
+			(at 180.34 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14715,7 +16397,7 @@
 			)
 		)
 		(property "Value" "0603WAF1003T5E"
-			(at 186.69 62.2299 90)
+			(at 181.61 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14725,7 +16407,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:R0603"
-			(at 191.77 60.96 0)
+			(at 186.69 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14734,7 +16416,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_100KR-1003-1_C25803.html"
-			(at 194.31 60.96 0)
+			(at 189.23 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14743,7 +16425,7 @@
 			)
 		)
 		(property "Description" "100kΩ"
-			(at 184.15 60.96 0)
+			(at 179.07 60.96 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -14752,7 +16434,7 @@
 			)
 		)
 		(property "LCSC Part" "C25803"
-			(at 196.85 60.96 0)
+			(at 191.77 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15105,7 +16787,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0603,100nF")
-		(at 264.16 85.09 180)
+		(at 259.08 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15113,7 +16795,7 @@
 		(dnp no)
 		(uuid "b5926af0-7adf-488d-9396-9e3ec5886a43")
 		(property "Reference" "C14"
-			(at 259.08 85.09 90)
+			(at 254 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15121,7 +16803,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 261.62 85.09 90)
+			(at 256.54 85.09 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -15129,7 +16811,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0603"
-			(at 265.938 85.09 90)
+			(at 260.858 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15138,7 +16820,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
-			(at 264.16 85.09 0)
+			(at 259.08 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15147,7 +16829,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 264.16 85.09 0)
+			(at 259.08 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15156,7 +16838,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 264.16 85.09 0)
+			(at 259.08 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15165,7 +16847,7 @@
 			)
 		)
 		(property "Stock" "70324515"
-			(at 264.16 85.09 0)
+			(at 259.08 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15174,7 +16856,7 @@
 			)
 		)
 		(property "Price" "0.006USD"
-			(at 264.16 85.09 0)
+			(at 259.08 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15183,7 +16865,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 264.16 85.09 0)
+			(at 259.08 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15192,7 +16874,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 264.16 85.09 0)
+			(at 259.08 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15201,7 +16883,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 264.16 85.09 0)
+			(at 259.08 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15210,7 +16892,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 264.16 85.09 0)
+			(at 259.08 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15219,7 +16901,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 264.16 85.09 0)
+			(at 259.08 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15228,7 +16910,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 264.16 85.09 0)
+			(at 259.08 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15237,7 +16919,7 @@
 			)
 		)
 		(property "Part" "CC0603KRX7R9BB104"
-			(at 264.16 85.09 0)
+			(at 259.08 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15246,7 +16928,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 261.62 85.09 90)
+			(at 256.54 85.09 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -15255,7 +16937,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 264.16 85.09 0)
+			(at 259.08 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15264,7 +16946,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 264.16 85.09 0)
+			(at 259.08 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15273,7 +16955,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 264.16 85.09 0)
+			(at 259.08 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15298,7 +16980,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 256.54 41.91 180)
+		(at 251.46 41.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15307,7 +16989,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5df4f7b-88ad-4cd0-b799-61476b841b2f")
 		(property "Reference" "#PWR051"
-			(at 256.54 35.56 0)
+			(at 251.46 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15316,7 +16998,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 256.54 36.83 0)
+			(at 251.46 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15324,7 +17006,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 41.91 0)
+			(at 251.46 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15333,7 +17015,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 41.91 0)
+			(at 251.46 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15342,7 +17024,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 256.54 41.91 0)
+			(at 251.46 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15430,6 +17112,7 @@
 		)
 	)
 	(symbol
+		(lib_name "RC0603FR-0733RL_1")
 		(lib_id "EasyEDA:RC0603FR-0733RL")
 		(at 149.86 53.34 0)
 		(unit 1)
@@ -15653,8 +17336,9 @@
 		)
 	)
 	(symbol
+		(lib_name "RC0603FR-0733RL_6")
 		(lib_id "EasyEDA:RC0603FR-0733RL")
-		(at 251.46 46.99 90)
+		(at 246.38 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15662,7 +17346,7 @@
 		(dnp no)
 		(uuid "c5ed9cc2-8347-4e48-a40f-0a6a90816c28")
 		(property "Reference" "R14"
-			(at 248.92 46.99 0)
+			(at 243.84 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15670,7 +17354,7 @@
 			)
 		)
 		(property "Value" "RC0603FR-0733RL"
-			(at 247.65 46.99 0)
+			(at 242.57 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15679,7 +17363,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:R0603"
-			(at 259.08 46.99 0)
+			(at 254 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15688,7 +17372,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_33R-33R-1_C108661.html"
-			(at 261.62 46.99 0)
+			(at 256.54 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15697,7 +17381,7 @@
 			)
 		)
 		(property "Description" "33 Ω"
-			(at 251.46 46.99 0)
+			(at 246.38 46.99 0)
 			(effects
 				(font
 					(size 1.1 1.1)
@@ -15705,7 +17389,7 @@
 			)
 		)
 		(property "LCSC Part" "C108661"
-			(at 264.16 46.99 0)
+			(at 259.08 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15753,7 +17437,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Ossi connectors:Thermisto-place"
+		(property "Footprint" "Ossi connectors:Thermistor-holes"
 			(at 91.44 156.21 0)
 			(effects
 				(font
@@ -15797,7 +17481,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:0603WAF2701T5E")
-		(at 275.59 76.2 270)
+		(at 270.51 76.2 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15805,16 +17489,17 @@
 		(dnp no)
 		(uuid "cc54ed33-36fa-4a66-9a23-4fe04816a4ad")
 		(property "Reference" "R17"
-			(at 280.67 77.47 90)
+			(at 275.59 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Value" "0603WAF2701T5E"
-			(at 273.05 74.9301 90)
+			(at 267.97 74.9301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15824,7 +17509,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:R0603"
-			(at 267.97 76.2 0)
+			(at 262.89 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15833,7 +17518,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_2-7KR-2701-1_C13167.html"
-			(at 265.43 76.2 0)
+			(at 260.35 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15842,7 +17527,7 @@
 			)
 		)
 		(property "Description" "2.7kΩ"
-			(at 275.59 76.2 0)
+			(at 270.51 76.2 0)
 			(effects
 				(font
 					(size 1 1)
@@ -15850,7 +17535,7 @@
 			)
 		)
 		(property "LCSC Part" "C13167"
-			(at 262.89 76.2 0)
+			(at 257.81 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16006,8 +17691,9 @@
 		)
 	)
 	(symbol
+		(lib_name "0603WAF2701T5E_1")
 		(lib_id "EasyEDA:0603WAF2701T5E")
-		(at 267.97 73.66 90)
+		(at 262.89 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16015,16 +17701,17 @@
 		(dnp no)
 		(uuid "cd90d711-e88e-4789-9ddb-31e9474977b9")
 		(property "Reference" "R16"
-			(at 269.24 73.66 90)
+			(at 264.16 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Value" "0603WAF2701T5E"
-			(at 270.51 74.9299 90)
+			(at 265.43 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16034,7 +17721,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:R0603"
-			(at 275.59 73.66 0)
+			(at 270.51 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16043,7 +17730,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_2-7KR-2701-1_C13167.html"
-			(at 278.13 73.66 0)
+			(at 273.05 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16052,7 +17739,7 @@
 			)
 		)
 		(property "Description" "2.7kΩ"
-			(at 267.97 73.66 0)
+			(at 262.89 73.66 0)
 			(effects
 				(font
 					(size 1 1)
@@ -16060,7 +17747,7 @@
 			)
 		)
 		(property "LCSC Part" "C13167"
-			(at 280.67 73.66 0)
+			(at 275.59 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16084,8 +17771,9 @@
 		)
 	)
 	(symbol
+		(lib_name "0603WAF1003T5E_1")
 		(lib_id "EasyEDA:0603WAF1003T5E")
-		(at 262.89 33.02 180)
+		(at 257.81 33.02 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16093,7 +17781,7 @@
 		(dnp no)
 		(uuid "cfa20abf-7d0c-4ab6-ac8a-db0313c14a1e")
 		(property "Reference" "R21"
-			(at 261.62 30.48 0)
+			(at 256.54 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16102,7 +17790,7 @@
 			)
 		)
 		(property "Value" "0603WAF1003T5E"
-			(at 264.1599 30.48 90)
+			(at 259.0799 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16112,7 +17800,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:R0603"
-			(at 262.89 25.4 0)
+			(at 257.81 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16121,7 +17809,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_100KR-1003-1_C25803.html"
-			(at 262.89 22.86 0)
+			(at 257.81 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16130,7 +17818,7 @@
 			)
 		)
 		(property "Description" "100kΩ"
-			(at 262.89 33.02 0)
+			(at 257.81 33.02 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -16139,7 +17827,7 @@
 			)
 		)
 		(property "LCSC Part" "C25803"
-			(at 262.89 20.32 0)
+			(at 257.81 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16163,8 +17851,9 @@
 		)
 	)
 	(symbol
+		(lib_name "RC0603FR-0733RL_7")
 		(lib_id "EasyEDA:RC0603FR-0733RL")
-		(at 189.23 66.04 0)
+		(at 184.15 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16172,7 +17861,7 @@
 		(dnp no)
 		(uuid "d2bd3b03-3d2b-4a77-97b0-0669212f490d")
 		(property "Reference" "R10"
-			(at 189.23 63.5 0)
+			(at 184.15 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16180,7 +17869,7 @@
 			)
 		)
 		(property "Value" "RC0603FR-0733RL"
-			(at 189.23 62.23 0)
+			(at 184.15 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16189,7 +17878,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:R0603"
-			(at 189.23 73.66 0)
+			(at 184.15 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16198,7 +17887,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_33R-33R-1_C108661.html"
-			(at 189.23 76.2 0)
+			(at 184.15 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16207,7 +17896,7 @@
 			)
 		)
 		(property "Description" "33 Ω"
-			(at 189.23 66.04 0)
+			(at 184.15 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16215,7 +17904,7 @@
 			)
 		)
 		(property "LCSC Part" "C108661"
-			(at 189.23 78.74 0)
+			(at 184.15 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16240,7 +17929,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:FC-D1608UGK-520D10")
-		(at 250.19 91.44 90)
+		(at 245.11 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16249,7 +17938,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8942f1b-85b7-4427-8b28-95ce2c31167d")
 		(property "Reference" "LED2"
-			(at 254 90.6799 90)
+			(at 248.92 90.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16258,7 +17947,7 @@
 			)
 		)
 		(property "Value" "FC-D1608UGK-520D10"
-			(at 254 93.2199 90)
+			(at 248.92 93.2199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16268,7 +17957,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:LED0603-RD_1"
-			(at 259.08 91.44 0)
+			(at 254 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16277,7 +17966,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Emerald-SMDLED-500-900mcd_C84267.html"
-			(at 261.62 91.44 0)
+			(at 256.54 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16286,7 +17975,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 250.19 91.44 0)
+			(at 245.11 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16295,7 +17984,7 @@
 			)
 		)
 		(property "LCSC Part" "C84267"
-			(at 264.16 91.44 0)
+			(at 259.08 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16579,7 +18268,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 275.59 81.28 180)
+		(at 270.51 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16587,7 +18276,7 @@
 		(dnp no)
 		(uuid "de9221e8-643d-4359-a6af-9400ec4d50b8")
 		(property "Reference" "#PWR055"
-			(at 275.59 77.47 0)
+			(at 270.51 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16596,7 +18285,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 274.32 85.09 0)
+			(at 269.24 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16604,7 +18293,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 275.59 81.28 0)
+			(at 270.51 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16613,7 +18302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.59 81.28 0)
+			(at 270.51 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16622,7 +18311,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 275.59 81.28 0)
+			(at 270.51 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16644,7 +18333,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:RC0603FR-0733RL")
-		(at 190.5 86.36 0)
+		(at 185.42 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16652,7 +18341,7 @@
 		(dnp no)
 		(uuid "dec09416-cffe-4296-8cd7-b5841e62dd63")
 		(property "Reference" "R13"
-			(at 190.5 83.82 0)
+			(at 185.42 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16660,7 +18349,7 @@
 			)
 		)
 		(property "Value" "RC0603FR-0733RL"
-			(at 190.5 82.55 0)
+			(at 185.42 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16669,7 +18358,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:R0603"
-			(at 190.5 93.98 0)
+			(at 185.42 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16678,7 +18367,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_33R-33R-1_C108661.html"
-			(at 190.5 96.52 0)
+			(at 185.42 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16687,7 +18376,7 @@
 			)
 		)
 		(property "Description" "33 Ω"
-			(at 190.5 86.36 0)
+			(at 185.42 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16695,7 +18384,7 @@
 			)
 		)
 		(property "LCSC Part" "C108661"
-			(at 190.5 99.06 0)
+			(at 185.42 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16720,7 +18409,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 224.79 38.1 180)
+		(at 219.71 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16728,7 +18417,7 @@
 		(dnp no)
 		(uuid "e075cd62-e5ed-4f3a-a88f-caa71870d0b2")
 		(property "Reference" "#PWR045"
-			(at 224.79 31.75 0)
+			(at 219.71 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16737,7 +18426,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 33.02 0)
+			(at 219.71 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16745,7 +18434,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 38.1 0)
+			(at 219.71 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16754,7 +18443,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 38.1 0)
+			(at 219.71 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16763,7 +18452,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 224.79 38.1 0)
+			(at 219.71 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17241,7 +18930,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 228.6 38.1 180)
+		(at 223.52 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17249,7 +18938,7 @@
 		(dnp no)
 		(uuid "f18c861d-1d11-4727-9f2c-ee579d83da10")
 		(property "Reference" "#PWR046"
-			(at 228.6 31.75 0)
+			(at 223.52 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17258,7 +18947,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 229.87 33.02 0)
+			(at 224.79 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17266,7 +18955,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 38.1 0)
+			(at 223.52 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17275,7 +18964,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 38.1 0)
+			(at 223.52 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17284,7 +18973,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 228.6 38.1 0)
+			(at 223.52 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17498,82 +19187,6 @@
 			(project "tonttulauta v.0"
 				(path "/b9cca3cd-cb2d-42d4-a628-737eddf4a5c6"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:GT36516")
-		(at 91.44 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f9031e9c-e905-4d72-8daa-9beacf04d2cf")
-		(property "Reference" "R18"
-			(at 91.44 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GT36516"
-			(at 91.44 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "EasyEDA:RES-SMD_L3.6-W2.4"
-			(at 91.44 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "LDR"
-			(at 91.44 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2904880"
-			(at 91.44 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "158e1ed0-16e1-4c9a-8fbc-12a6d5d773f5")
-		)
-		(pin "2"
-			(uuid "b377729d-ccde-4d1f-b58b-f0c7b7ca4aaf")
-		)
-		(instances
-			(project ""
-				(path "/b9cca3cd-cb2d-42d4-a628-737eddf4a5c6"
-					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -17973,8 +19586,9 @@
 		)
 	)
 	(symbol
+		(lib_name "RC0603FR-0733RL_5")
 		(lib_id "EasyEDA:RC0603FR-0733RL")
-		(at 273.05 54.61 90)
+		(at 267.97 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17982,7 +19596,7 @@
 		(dnp no)
 		(uuid "fd7130a9-7a18-43bb-a5f8-e47b0006d3ba")
 		(property "Reference" "R12"
-			(at 270.51 54.61 0)
+			(at 265.43 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17990,7 +19604,7 @@
 			)
 		)
 		(property "Value" "RC0603FR-0733RL"
-			(at 269.24 54.61 0)
+			(at 264.16 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17999,7 +19613,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:R0603"
-			(at 280.67 54.61 0)
+			(at 275.59 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18008,7 +19622,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_33R-33R-1_C108661.html"
-			(at 283.21 54.61 0)
+			(at 278.13 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18017,7 +19631,7 @@
 			)
 		)
 		(property "Description" "33 Ω"
-			(at 273.05 54.61 0)
+			(at 267.97 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18025,7 +19639,7 @@
 			)
 		)
 		(property "LCSC Part" "C108661"
-			(at 285.75 54.61 0)
+			(at 280.67 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
