@@ -55,8 +55,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -0.95 6.275)
-		(end -0.95 6.725)
+		(start -0.95 6.775)
+		(end -0.95 7.225)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -65,8 +65,8 @@
 		(uuid "4a1dc061-51a4-4969-83f9-a57fe4c6e37b")
 	)
 	(fp_line
-		(start -0.95 6.725)
-		(end 0.95 7.325)
+		(start -0.95 7.225)
+		(end 0.95 7.825)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -75,8 +75,8 @@
 		(uuid "869723e3-bf16-4685-9182-797fdc239d8f")
 	)
 	(fp_line
-		(start 0.95 7.325)
-		(end 0.95 7.65)
+		(start 0.95 7.825)
+		(end 0.95 8.15)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -85,8 +85,8 @@
 		(uuid "10ab5cb7-320f-4259-ae8e-781feec98d3d")
 	)
 	(fp_rect
-		(start -0.55 6.15)
-		(end 0.55 7.9)
+		(start -0.55 6.45)
+		(end 0.55 8.6)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -104,7 +104,7 @@
 		(uuid "07ff3ae8-f928-4ad1-bc34-295115e9453a")
 	)
 	(pad "2" thru_hole circle
-		(at 0 9)
+		(at 0 10)
 		(size 1.6 1.6)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
