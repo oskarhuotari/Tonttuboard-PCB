@@ -1,13 +1,21 @@
-A custom Teensy 4.0 carrier booard PCB for the Finnish 2026 CanSat competition.
+A carrier board for a Teensy 4.0 made for the 2026 Finnish CanSat competition.
+<img width="573" height="388" alt="image" src="https://github.com/user-attachments/assets/45c22d60-4122-4135-bd17-9d974b15ec99" />
+<img width="1288" height="618" alt="image" src="https://github.com/user-attachments/assets/f176da99-eaff-411c-8ac0-b6e0c8591270" />
 
-<img width="1493" height="623" alt="image" src="https://github.com/user-attachments/assets/6f5046e4-8f1e-4716-9b54-e18f2cce2a76" />
-<img width="1344" height="587" alt="image" src="https://github.com/user-attachments/assets/0965d2b2-b6da-40d2-8576-eccb7d0c7945" />
-
-
+---
 The board includes:
+- Holes for the Teensy 4.0
 - ICM-40609-D (IMU)
-- MMC5983MA (Magnetometer)
 - BMP388 (Barometer)
 - W25Q256JVFIQT (Flash Chip)
-- LDR
-
+- LDR holes
+- Thermistor holes
+- PMW cable holes
+- cool graphics
+---
+Insturctions:
+- Buy a teensy 4.0 and order this PCB from JLCPCB
+- Solder them together
+- Use Tonttulib (or make your own libs for the sensors)
+- Fly your project
+- Cry
